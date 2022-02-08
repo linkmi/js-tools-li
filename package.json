@@ -1,0 +1,22 @@
+{
+  "name": "js-tools-li",
+  "version": "1.0.0",
+  "description": "tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkmi/js-tools-li.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "linkmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkmi/js-tools-li/issues"
+  },
+  "homepage": "https://github.com/linkmi/js-tools-li#readme"
+}
