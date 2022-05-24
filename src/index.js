@@ -6,14 +6,13 @@ export function filterNumberFormat(value, fix = 2) {
         return newNum
     }
     if (numberIsNaN(Number(value))) {
-        let parts = Number(value).toFixed(this.$inputNumer).toString().split('.')
+        let parts = Number(value).toFixed(fix).toString().split('.')
         parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',')
         let num = parts.join('.')
         return num
     } else {
         return value
     }
-    // .toFixed(2).replace(/(\d)(?=(\d{3})+.)/g, ‘$1,’)
 }
 
 
