@@ -4,19 +4,26 @@
   "description": "tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-c": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linkmi/js-tools-li.git"
+    "url": "git+https://github.com/zw-li/js-tools-li.git"
   },
   "keywords": [
     "js"
   ],
-  "author": "linkmi",
+  "author": "zw-li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/linkmi/js-tools-li/issues"
+    "url": "https://github.com/zw-li/js-tools-li/issues"
   },
-  "homepage": "https://github.com/linkmi/js-tools-li#readme"
+  "homepage": "https://github.com/zw-li/js-tools-li#readme",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.6.4"
+  }
 }
